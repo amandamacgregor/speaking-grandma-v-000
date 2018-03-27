@@ -15,10 +15,11 @@
 def speak_to_grandma(hello)
   if hello != hello.upcase 
     return "HUH?! SPEAK UP, SONNY!"
+    else if hello == "I LOVE YOU GRANDMA!"
+    return "I LOVE YOU TOO PUMPKIN!"
   else if hello.upcase
     return "NO, NOT SINCE 1938!"
-  else if hello == "I LOVE YOU GRANDMA!"
-    return "I LOVE YOU TOO PUMPKIN!"
+  
   end
 end
 end
